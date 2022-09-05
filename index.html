@@ -171,7 +171,11 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-6">
-            <form id="contact-form" action="https://formspree.io/f/mjvzkolo" method="post">
+            <div class="alert alert-success alert-dismissible fade show d-none alert-berhasil" role="alert">
+              <strong>Terima Kasih!</strong> Tolong pantau email selama 24 jam. Saya akan mengirim balasan email. Semoga harimu menyenangkan!
+              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            <form id="contact-form" name="contact-form" action="https://formspree.io/f/mjvzkolo" method="post">
               <div class="mb-3">
                 <label for="full-name" class="form-label">Nama Lengkap</label>
                 <input type="text" class="form-control" id="full-name" name="full-name" aria-describedby="full-name" />
@@ -189,8 +193,11 @@
                 <textarea type="text" class="form-control" id="massage" name="massage" rows="3"></textarea>
               </div>
               <div class="d-flex justify-content-between">
-                <button type="submit" class="btn btn-outline-success btn-light">Kirim</button>
-                <span class="loader"></span>
+                <button type="submit" class="btn btn-outline-success btn-light btn-kirim">Kirim</button>
+                <button class="btn btn-outline-success btn-light d-none btn-loading" type="button" disabled>
+                  <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                  Memuat...
+                </button>
               </div>
             </form>
           </div>
