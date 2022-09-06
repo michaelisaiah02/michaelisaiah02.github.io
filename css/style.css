@@ -1,3 +1,41 @@
+nav {
+  font-family: "Fredoka One", cursive;
+}
+
+nav .container ul li.active {
+  background-color: #c3ffd7 !important;
+  transition: 0.4 ease background-color;
+  font-size: 1.1rem;
+  -webkit-transition: 0.4 ease background-color;
+  -moz-transition: 0.4 ease background-color;
+  -ms-transition: 0.4 ease background-color;
+  -o-transition: 0.4 ease background-color;
+}
+
+nav .container ul li.active a {
+  color: black !important;
+}
+
+nav .container ul.dropdown-menu {
+  background-color: #c3ffd7;
+  color: black !important;
+  width: 50px !important;
+}
+
+nav .container ul li .dropdown-item {
+  color: black;
+}
+
+nav .container ul li .dropdown-item:hover {
+  transition: 0.3s;
+  background-color: #198754 !important;
+  color: white !important;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
 .jumbotron {
   padding-top: 6rem;
   background-color: rgb(195, 255, 215);
@@ -59,23 +97,5 @@ a:hover {
   }
   to {
     text-shadow: 0 0 2px #fff, 0 0 2px #ff4d4d, 0 0 3px #ff4d4d, 0 0 4px #ff4d4d, 0 0 5px #ff4d4d, 0 0 6px #ff4d4d, 0 0 7px #ff4d4d;
-  }
-}
-
-.loader {
-  border: 7px solid #198754;
-  border-top: 7px solid #09ff00;
-  border-radius: 50%;
-  width: 35px;
-  height: 35px;
-  animation: spin 2s linear infinite;
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
   }
 }
