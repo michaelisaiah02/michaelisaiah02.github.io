@@ -120,7 +120,7 @@ p {
 /* My PC Spec Section */
 .spec-box {
   position: relative;
-  background-color: #c3ffd7;
+  background-color: #2fff99;
   border-radius: 10px;
   height: 500px;
   transform-style: preserve-3d;
@@ -196,7 +196,9 @@ p {
 }
 
 .spec-detail-button {
-  background-color: #80ffab;
+  background-color: #1fc222;
+  border-color: #2fff99;
+  border-width: 0.2em;
   position: absolute;
   bottom: 0;
   left: 50%;
@@ -216,6 +218,7 @@ p {
 .spec-detail-button:hover {
   background-color: green;
   color: aliceblue;
+  border-color: #99ffce;
 }
 
 .spec-box:hover .spec-detail-button {
