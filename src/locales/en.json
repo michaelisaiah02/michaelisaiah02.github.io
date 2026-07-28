@@ -1,0 +1,108 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "projects": "Projects",
+        "experience": "Experience",
+        "contact": "Contact"
+    },
+    "hero": {
+        "greeting": "Hello there, I'm",
+        "name": "Michael Isaiah",
+        "role": "Full Stack Web Developer & IT Staff",
+        "description": "An Informatics Engineering graduate passionate about building highly structured web applications. Currently expanding my horizons into Game Development.",
+        "cta": "Let's Talk",
+        "projects": "View Projects"
+    },
+    "about": {
+        "title": "About Me",
+        "story1": "Starting from a deep curiosity for coding, I am accustomed to building and restructuring applications from the ground up. My experience is heavily centered around backend development and database logic.",
+        "story2": "Currently, I am pushing my boundaries by diving into the world of Game Development. For me, solving technical problems is not just a job, but a dedication to continuous growth and making a positive impact.",
+        "skills_title": "Tech & Tools"
+    },
+    "projects": {
+        "title": "Selected Works",
+        "view_project": "View Details",
+        "list": [
+            {
+                "title": "Kosakataku - AI Language Learning",
+                "desc": "An interactive foreign language vocabulary learning application for elementary students. Integrates OpenAI API along with Google Speech-to-Text and Text-to-Speech APIs for pronunciation evaluation.",
+                "tech": [
+                    "Laravel",
+                    "OpenAI API",
+                    "Google Cloud API"
+                ],
+                "link": "https://github.com/michaelisaiah02/kosakataku"
+            },
+            {
+                "title": "Enterprise Notification System",
+                "desc": "Migrated a client notification system to an independent internal infrastructure based on Docker and WAHA API, saving operational costs and improving reliability.",
+                "tech": [
+                    "Docker",
+                    "WAHA API",
+                    "Node.js"
+                ],
+                "link": ""
+            },
+            {
+                "title": "Automated Document Validation",
+                "desc": "Engineered a backend script to programmatically overlay validation stamps and QR codes onto client PDF documents for regional administrative purposes.",
+                "tech": [
+                    "PHP",
+                    "Ghostscript",
+                    "FPDI"
+                ],
+                "link": ""
+            },
+            {
+                "title": "Workshop Monitoring Dashboard",
+                "desc": "Developed a monitoring report page to track and compile monthly diagnostic data entries from various regional service centers utilizing a legacy template system.",
+                "tech": [
+                    "PHP",
+                    "Smarty",
+                    "SQL"
+                ],
+                "link": ""
+            }
+        ]
+    },
+    "experience": {
+        "title": "Career Journey",
+        "list": [
+            {
+                "role": "Web Developer",
+                "company": "PT Oktagon Global Utama",
+                "date": "2023 - 2024",
+                "desc": "Mengembangkan aplikasi web sesuai kebutuhan klien berdasarkan tiket pengembangan. Bekerja dalam lingkungan yang berorientasi pada target dan tenggat waktu, sehingga terbiasa menyelesaikan tugas secara tepat waktu dengan tetap menjaga kualitas hasil."
+            },
+            {
+                "role": "IT Staff (Full Stack Developer & IT Support)",
+                "company": "PT Jayamandiri Gemasejati",
+                "date": "Start Year - Present",
+                "desc": "Responsible for maintaining IT infrastructure, optimizing database queries, and developing internal applications such as workshop monitoring systems and PDF document automation."
+            },
+            {
+                "role": "Freelance Full Stack Developer",
+                "company": "Self-Employed",
+                "date": "Start Year - Present",
+                "desc": "Handling various custom web development projects, ranging from Docker-based notification system integrations to AI learning applications. Experienced in time management between primary job and side projects."
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contact Me",
+        "subtitle": "Let's Talk",
+        "desc": "Interested in collaborating, have a job offer, or just want to say hi? Don't hesitate to drop a message!",
+        "name_label": "Full Name",
+        "email_label": "Email",
+        "subject_label": "Subject",
+        "message_label": "Message",
+        "btn_send": "Send Message",
+        "btn_loading": "Sending...",
+        "success_msg": "Thank you! Your message has been sent. I'll get back to you shortly. Have a great day! 😊",
+        "error_msg": "Oops! Something went wrong while sending the message. Please try again later."
+    },
+    "footer": {
+        "text": "Crafted with dedication by"
+    }
+}
