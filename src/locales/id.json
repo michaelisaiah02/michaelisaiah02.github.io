@@ -1,0 +1,122 @@
+{
+    "navbar": {
+        "home": "Beranda",
+        "about": "Tentang",
+        "projects": "Proyek",
+        "experience": "Pengalaman",
+        "contact": "Kontak"
+    },
+    "hero": {
+        "greeting": "Halo, perkenalkan saya",
+        "name": "Michael Isaiah",
+        "role": "Full Stack Web Developer & Game Developer",
+        "description": "Lulusan Teknik Informatika yang bersemangat membangun aplikasi web dari akar hingga terstruktur rapi. Saat ini juga sedang mendalami dunia Game Development.",
+        "cta": "Mari Berdiskusi",
+        "projects": "Lihat Proyek",
+        "download_cv": "Unduh CV"
+    },
+    "about": {
+        "title": "Tentang Saya",
+        "story1": "Berawal dari rasa penasaran dengan dunia koding, saya terbiasa membangun dan merestrukturisasi aplikasi dari akar hingga berjalan optimal. Pengalaman saya banyak berpusat pada pengembangan backend dan logika database.",
+        "story2": "Saat ini, saya sedang memperluas batasan saya dengan menyelami dunia Game Development. Bagi saya, memecahkan masalah teknis bukan sekadar pekerjaan, melainkan dedikasi untuk terus berkembang dan memberikan dampak positif.",
+        "skills_title": "Teknologi & Tools"
+    },
+    "projects": {
+        "title": "Proyek Terpilih",
+        "view_project": "Lihat Detail",
+        "list": [
+            {
+                "title": "Kosakataku - AI Language Learning",
+                "desc": "Aplikasi media pembelajaran kosakata bahasa asing interaktif untuk anak SD. Mengintegrasikan OpenAI API untuk kecerdasan buatan, beserta Google Speech-to-Text dan Text-to-Speech API untuk evaluasi pelafalan.",
+                "tech": [
+                    "Laravel",
+                    "OpenAI API",
+                    "Google Cloud API"
+                ],
+                "link": "https://github.com/michaelisaiah02/kosakataku"
+            },
+            {
+                "title": "Enterprise Notification System",
+                "desc": "Migrasi sistem notifikasi klien ke infrastruktur internal mandiri berbasis Docker dan WAHA API. Menghemat biaya operasional dan meningkatkan keandalan pengiriman pesan.",
+                "tech": [
+                    "Docker",
+                    "WAHA API",
+                    "Node.js"
+                ],
+                "link": ""
+            },
+            {
+                "title": "Automated Document Validation",
+                "desc": "Membangun skrip backend untuk menempelkan stempel validasi dan kode QR secara otomatis ke dalam dokumen PDF klien untuk keperluan administrasi regional.",
+                "tech": [
+                    "Laravel",
+                    "Ghostscript",
+                    "FPDI"
+                ],
+                "link": ""
+            },
+            {
+                "title": "Workshop Monitoring Dashboard",
+                "desc": "Mengembangkan halaman laporan monitoring untuk melacak dan merangkum entri data diagnostik bulanan dari berbagai pusat layanan regional menggunakan sistem template legacy.",
+                "tech": [
+                    "PHP",
+                    "Smarty",
+                    "SQL"
+                ],
+                "link": ""
+            }
+        ]
+    },
+    "experience": {
+        "title": "Perjalanan Karir",
+        "list": [
+            {
+                "role": "Data Analyst",
+                "company": "PT Telkom Indonesia (Persero), Tbk.",
+                "date": "Agustus 2023 - Oktober 2023",
+                "desc": "Membuat hasil analisis data untuk mendukung pengambilan keputusan bisnis. Menggunakan Excel, SQL dan Python untuk mengolah data besar dan menghasilkan laporan yang informatif."
+            },
+            {
+                "role": "Web Developer",
+                "company": "PT Oktagon Global Utama",
+                "date": "Desember 2023 - Desember 2024",
+                "desc": "Mengembangkan aplikasi web sesuai kebutuhan klien berdasarkan tiket pengembangan. Bekerja dalam lingkungan yang berorientasi pada target dan tenggat waktu, sehingga terbiasa menyelesaikan tugas secara tepat waktu dengan tetap menjaga kualitas hasil."
+            },
+            {
+                "role": "Freelance Full Stack Developer",
+                "company": "Proyek Mandiri",
+                "date": "Maret 2025 - Sekarang",
+                "desc": "Menerima berbagai proyek pengembangan web kustom, mulai dari integrasi sistem notifikasi berbasis Docker hingga aplikasi pembelajaran AI. Terbiasa memanajemen waktu antara pekerjaan utama dan proyek sampingan."
+            },
+            {
+                "role": "IT Staff (Full Stack Developer)",
+                "company": "PT Jayamandiri Gemasejati",
+                "date": "Juli 2025 - Sekarang",
+                "desc": "Bertanggung jawab dalam merawat infrastruktur IT, mengoptimalkan query database, dan mengembangkan aplikasi internal seperti sistem monitoring bengkel dan otomatisasi dokumen PDF."
+            },
+            {
+                "role": "Founder & IT Technician",
+                "company": "BenerinDulu",
+                "date": "Mei 2026 - Sekarang",
+                "desc": "Mendirikan dan mengelola usaha mandiri di bidang instalasi dan servis Laptop/PC. Menangani diagnosa kerusakan hardware, optimasi sistem operasi, serta memberikan solusi IT yang cepat, rapi, dan bergaransi kepada klien."
+            }
+        ]
+    },
+    "contact": {
+        "title": "Hubungi Saya",
+        "subtitle": "Mari Berdiskusi",
+        "desc": "Tertarik untuk berkolaborasi, ada tawaran pekerjaan, atau sekadar ingin menyapa? Jangan ragu untuk mengirim pesan!",
+        "name_label": "Nama Lengkap",
+        "email_label": "Email",
+        "subject_label": "Subjek",
+        "message_label": "Pesan",
+        "btn_send": "Kirim Pesan",
+        "btn_loading": "Mengirim...",
+        "success_msg": "Terima kasih! Pesan Anda sudah terkirim. Saya akan membalasnya segera. Semoga harimu menyenangkan! 😊",
+        "error_msg": "Ups! Terjadi kesalahan saat mengirim pesan. Silakan coba lagi nanti."
+    },
+    "footer": {
+        "text": "Dibuat dengan dedikasi dan",
+        "by": "oleh"
+    }
+}

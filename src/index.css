@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+/* 1. Taruh LANGSUNG di luar @layer & kasih !important biar kebal waktu di-build */
+html {
+  scroll-behavior: smooth !important;
+  scroll-padding-top: 80px; /* Jarak aman biar judul section nggak ketutup Navbar */
+}
+
+/* 2. Custom variant buat tombol toggle Dark Mode manual */
+@variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: #10b981; 
+  --color-primary-hover: #059669;
+  --color-accent: #0ea5e9;
+  
+  --color-bg-light: #f8fafc; 
+  --color-bg-dark: #0f172a; 
+}
+
+@layer base {
+  body {
+    @apply bg-bg-light text-slate-800 transition-colors duration-300;
+  }
+  
+  .dark body {
+    @apply bg-bg-dark text-slate-200;
+  }
+}
