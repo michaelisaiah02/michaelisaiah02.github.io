@@ -9,10 +9,18 @@
     "hero": {
         "greeting": "Hello there, I'm",
         "name": "Michael Isaiah",
+<<<<<<< HEAD
         "role": "Full Stack Web Developer & IT Staff",
         "description": "An Informatics Engineering graduate passionate about building highly structured web applications. Currently expanding my horizons into Game Development.",
         "cta": "Let's Talk",
         "projects": "View Projects"
+=======
+        "role": "Full Stack Web Developer & Game Developer",
+        "description": "An Informatics Engineering graduate passionate about building highly structured web applications. Currently expanding my horizons into Game Development.",
+        "cta": "Let's Talk",
+        "projects": "View Projects",
+        "download_cv": "Download CV"
+>>>>>>> 78129090d8670bb214b32019d97b75ecf2941c9a
     },
     "about": {
         "title": "About Me",
@@ -70,6 +78,7 @@
         "title": "Career Journey",
         "list": [
             {
+<<<<<<< HEAD
                 "role": "Web Developer",
                 "company": "PT Oktagon Global Utama",
                 "date": "2023 - 2024",
@@ -80,12 +89,41 @@
                 "company": "PT Jayamandiri Gemasejati",
                 "date": "Start Year - Present",
                 "desc": "Responsible for maintaining IT infrastructure, optimizing database queries, and developing internal applications such as workshop monitoring systems and PDF document automation."
+=======
+                "role": "Data Analyst",
+                "company": "PT Telkom Indonesia (Persero), Tbk.",
+                "date": "August 2023 - October 2023",
+                "desc": "Produced data analysis results to support business decision-making. Utilized Excel, SQL, and Python to process large datasets and generate informative reports."
+            },
+            {
+                "role": "Web Developer",
+                "company": "PT Oktagon Global Utama",
+                "date": "December 2023 - December 2024",
+                "desc": "Developed web applications according to client requirements based on development tickets. Thrived in a target-driven, deadline-oriented environment, consistently delivering high-quality solutions on time."
+>>>>>>> 78129090d8670bb214b32019d97b75ecf2941c9a
             },
             {
                 "role": "Freelance Full Stack Developer",
                 "company": "Self-Employed",
+<<<<<<< HEAD
                 "date": "Start Year - Present",
                 "desc": "Handling various custom web development projects, ranging from Docker-based notification system integrations to AI learning applications. Experienced in time management between primary job and side projects."
+=======
+                "date": "March 2025 - Present",
+                "desc": "Handling various custom web development projects, ranging from Docker-based notification system integrations to AI learning applications. Experienced in time management between primary job and side projects."
+            },
+            {
+                "role": "IT Staff (Full Stack Developer)",
+                "company": "PT Jayamandiri Gemasejati",
+                "date": "July 2025 - Present",
+                "desc": "Responsible for maintaining IT infrastructure, optimizing database queries, and developing internal applications such as workshop monitoring systems and PDF document automation."
+            },
+            {
+                "role": "Founder & IT Technician",
+                "company": "BenerinDulu",
+                "date": "May 2026 - Present",
+                "desc": "Founded and managed an independent PC/Laptop installation and repair business. Handled hardware diagnostics, OS optimization, and provided fast, neat, and guaranteed IT solutions to clients."
+>>>>>>> 78129090d8670bb214b32019d97b75ecf2941c9a
             }
         ]
     },
@@ -103,6 +141,11 @@
         "error_msg": "Oops! Something went wrong while sending the message. Please try again later."
     },
     "footer": {
+<<<<<<< HEAD
         "text": "Crafted with dedication by"
+=======
+        "text": "Crafted with dedication and",
+        "by": "by"
+>>>>>>> 78129090d8670bb214b32019d97b75ecf2941c9a
     }
 }

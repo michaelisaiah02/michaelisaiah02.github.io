@@ -1,13 +1,19 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+<<<<<<< HEAD
 // Kita import icon dari react-icons buat gantiin gambar bendera jadul
 import { HiOutlineTranslate } from 'react-icons/hi';
 import { FiMenu, FiX } from 'react-icons/fi';
+=======
+import { HiOutlineTranslate } from 'react-icons/hi';
+import { FiMenu, FiX, FiMoon, FiSun } from 'react-icons/fi';
+>>>>>>> 78129090d8670bb214b32019d97b75ecf2941c9a
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+<<<<<<< HEAD
 
   // Efek buat ngecek scroll buat ngasih background glassmorphism
   useEffect(() => {
@@ -17,16 +23,50 @@ const Navbar = () => {
       } else {
         setIsScrolled(false);
       }
+=======
+  const [theme, setTheme] = useState('light'); // State buat tema
+
+  // Efek buat ngecek OS theme pas pertama kali load
+  useEffect(() => {
+    if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      setTheme('dark');
+      document.documentElement.classList.add('dark');
+    }
+  }, []);
+
+  // Efek buat glassmorphism scroll
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 20);
+>>>>>>> 78129090d8670bb214b32019d97b75ecf2941c9a
     };
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
+<<<<<<< HEAD
+=======
+  // Fungsi ganti bahasa
+>>>>>>> 78129090d8670bb214b32019d97b75ecf2941c9a
   const toggleLanguage = () => {
     const newLang = i18n.language === 'id' ? 'en' : 'id';
     i18n.changeLanguage(newLang);
   };
 
+<<<<<<< HEAD
+=======
+  // Fungsi ganti tema
+  const toggleTheme = () => {
+    if (theme === 'light') {
+      setTheme('dark');
+      document.documentElement.classList.add('dark');
+    } else {
+      setTheme('light');
+      document.documentElement.classList.remove('dark');
+    }
+  };
+
+>>>>>>> 78129090d8670bb214b32019d97b75ecf2941c9a
   const navLinks = [
     { name: t('navbar.home'), href: '#home' },
     { name: t('navbar.about'), href: '#about' },
@@ -64,6 +104,7 @@ const Navbar = () => {
             ))}
           </ul>
 
+<<<<<<< HEAD
           {/* Tombol Ganti Bahasa (Desktop) */}
           <button
             onClick={toggleLanguage}
@@ -73,14 +114,43 @@ const Navbar = () => {
             <HiOutlineTranslate className="text-xl" />
             <span className="font-semibold uppercase text-sm">{i18n.language}</span>
           </button>
+=======
+          <div className="flex items-center space-x-4 border-l border-slate-300 dark:border-slate-700 pl-4">
+            {/* Tombol Tema */}
+            <button
+              onClick={toggleTheme}
+              className="text-slate-800 dark:text-slate-200 hover:text-accent transition-colors text-xl"
+              title="Ganti Tema"
+            >
+              {theme === 'light' ? <FiMoon /> : <FiSun />}
+            </button>
+
+            {/* Tombol Bahasa */}
+            <button
+              onClick={toggleLanguage}
+              className="flex items-center space-x-1 text-slate-800 dark:text-slate-200 hover:text-accent transition-colors"
+              title="Ganti Bahasa"
+            >
+              <HiOutlineTranslate className="text-xl" />
+              <span className="font-semibold uppercase text-sm">{i18n.language}</span>
+            </button>
+          </div>
+>>>>>>> 78129090d8670bb214b32019d97b75ecf2941c9a
         </div>
 
         {/* Mobile Menu Button */}
         <div className="md:hidden flex items-center space-x-4">
+<<<<<<< HEAD
           <button
             onClick={toggleLanguage}
             className="text-slate-800 dark:text-slate-200 hover:text-accent"
           >
+=======
+          <button onClick={toggleTheme} className="text-slate-800 dark:text-slate-200 text-xl">
+            {theme === 'light' ? <FiMoon /> : <FiSun />}
+          </button>
+          <button onClick={toggleLanguage} className="text-slate-800 dark:text-slate-200">
+>>>>>>> 78129090d8670bb214b32019d97b75ecf2941c9a
             <span className="font-semibold uppercase text-sm">{i18n.language}</span>
           </button>
           <button

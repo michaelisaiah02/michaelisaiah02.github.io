@@ -9,10 +9,18 @@
     "hero": {
         "greeting": "Halo, perkenalkan saya",
         "name": "Michael Isaiah",
+<<<<<<< HEAD
         "role": "Full Stack Web Developer & IT Staff",
         "description": "Lulusan Teknik Informatika yang bersemangat membangun aplikasi web dari akar hingga terstruktur rapi. Saat ini juga sedang mendalami dunia Game Development.",
         "cta": "Mari Berdiskusi",
         "projects": "Lihat Proyek"
+=======
+        "role": "Full Stack Web Developer & Game Developer",
+        "description": "Lulusan Teknik Informatika yang bersemangat membangun aplikasi web dari akar hingga terstruktur rapi. Saat ini juga sedang mendalami dunia Game Development.",
+        "cta": "Mari Berdiskusi",
+        "projects": "Lihat Proyek",
+        "download_cv": "Unduh CV"
+>>>>>>> 78129090d8670bb214b32019d97b75ecf2941c9a
     },
     "about": {
         "title": "Tentang Saya",
@@ -70,6 +78,7 @@
         "title": "Perjalanan Karir",
         "list": [
             {
+<<<<<<< HEAD
                 "role": "Web Developer",
                 "company": "PT Oktagon Global Utama",
                 "date": "2023 - 2024",
@@ -80,12 +89,41 @@
                 "company": "PT Jayamandiri Gemasejati",
                 "date": "2025 - Sekarang",
                 "desc": "Bertanggung jawab dalam merawat infrastruktur IT, mengoptimalkan query database, dan mengembangkan aplikasi internal seperti sistem monitoring bengkel dan otomatisasi dokumen PDF."
+=======
+                "role": "Data Analyst",
+                "company": "PT Telkom Indonesia (Persero), Tbk.",
+                "date": "Agustus 2023 - Oktober 2023",
+                "desc": "Membuat hasil analisis data untuk mendukung pengambilan keputusan bisnis. Menggunakan Excel, SQL dan Python untuk mengolah data besar dan menghasilkan laporan yang informatif."
+            },
+            {
+                "role": "Web Developer",
+                "company": "PT Oktagon Global Utama",
+                "date": "Desember 2023 - Desember 2024",
+                "desc": "Mengembangkan aplikasi web sesuai kebutuhan klien berdasarkan tiket pengembangan. Bekerja dalam lingkungan yang berorientasi pada target dan tenggat waktu, sehingga terbiasa menyelesaikan tugas secara tepat waktu dengan tetap menjaga kualitas hasil."
+>>>>>>> 78129090d8670bb214b32019d97b75ecf2941c9a
             },
             {
                 "role": "Freelance Full Stack Developer",
                 "company": "Proyek Mandiri",
+<<<<<<< HEAD
                 "date": "2024 - Sekarang",
                 "desc": "Menerima berbagai proyek pengembangan web kustom, mulai dari integrasi sistem notifikasi berbasis Docker hingga aplikasi pembelajaran AI. Terbiasa memanajemen waktu antara pekerjaan utama dan proyek sampingan."
+=======
+                "date": "Maret 2025 - Sekarang",
+                "desc": "Menerima berbagai proyek pengembangan web kustom, mulai dari integrasi sistem notifikasi berbasis Docker hingga aplikasi pembelajaran AI. Terbiasa memanajemen waktu antara pekerjaan utama dan proyek sampingan."
+            },
+            {
+                "role": "IT Staff (Full Stack Developer)",
+                "company": "PT Jayamandiri Gemasejati",
+                "date": "Juli 2025 - Sekarang",
+                "desc": "Bertanggung jawab dalam merawat infrastruktur IT, mengoptimalkan query database, dan mengembangkan aplikasi internal seperti sistem monitoring bengkel dan otomatisasi dokumen PDF."
+            },
+            {
+                "role": "Founder & IT Technician",
+                "company": "BenerinDulu",
+                "date": "Mei 2026 - Sekarang",
+                "desc": "Mendirikan dan mengelola usaha mandiri di bidang instalasi dan servis Laptop/PC. Menangani diagnosa kerusakan hardware, optimasi sistem operasi, serta memberikan solusi IT yang cepat, rapi, dan bergaransi kepada klien."
+>>>>>>> 78129090d8670bb214b32019d97b75ecf2941c9a
             }
         ]
     },
@@ -103,6 +141,11 @@
         "error_msg": "Ups! Terjadi kesalahan saat mengirim pesan. Silakan coba lagi nanti."
     },
     "footer": {
+<<<<<<< HEAD
         "text": "Dibuat dengan segenap hati oleh"
+=======
+        "text": "Dibuat dengan dedikasi dan",
+        "by": "oleh"
+>>>>>>> 78129090d8670bb214b32019d97b75ecf2941c9a
     }
 }
