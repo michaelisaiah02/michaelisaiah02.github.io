@@ -9,28 +9,37 @@
     "hero": {
         "greeting": "Hello there, I'm",
         "name": "Michael Isaiah",
-<<<<<<< HEAD
-        "role": "Full Stack Web Developer & IT Staff",
-        "description": "An Informatics Engineering graduate passionate about building highly structured web applications. Currently expanding my horizons into Game Development.",
-        "cta": "Let's Talk",
-        "projects": "View Projects"
-=======
         "role": "Full Stack Web Developer & Game Developer",
         "description": "An Informatics Engineering graduate passionate about building highly structured web applications. Currently expanding my horizons into Game Development.",
         "cta": "Let's Talk",
         "projects": "View Projects",
-        "download_cv": "Download CV"
->>>>>>> 78129090d8670bb214b32019d97b75ecf2941c9a
+        "download_cv": "Download CV",
+        "odyssey_badge": "World Odyssey: 195 Countries Vision 🌍",
+        "coord_label": "BASECAMP: BANDUNG, ID (6.91° S, 107.61° E)",
+        "toggle_photo": "View Photo",
+        "toggle_globe": "3D Earth Mode"
     },
     "about": {
         "title": "About Me",
-        "story1": "Starting from a deep curiosity for coding, I am accustomed to building and restructuring applications from the ground up. My experience is heavily centered around backend development and database logic.",
-        "story2": "Currently, I am pushing my boundaries by diving into the world of Game Development. For me, solving technical problems is not just a job, but a dedication to continuous growth and making a positive impact.",
-        "skills_title": "Tech & Tools"
+        "story1": "Starting from a deep curiosity for coding and hardware, I am accustomed to building and restructuring systems from the deepest roots to optimal performance.",
+        "story2": "Beyond the screen, I am a nature enthusiast—from summiting mountains to admiring the deep ocean. My ultimate life vision is to achieve financial freedom through technology and explore all 195 countries across the globe.",
+        "skills_title": "Tech Ecosystem & Blueprint",
+        "mode_blueprint": "Node Blueprint",
+        "mode_grid": "Classic Grid",
+        "hint": "💡 Drag any node to reshape the network, or click 2 nodes to test System Synergy!",
+        "synergy_default": "Click any 2 tech nodes above to inspect their combined architectural output.",
+        "synergy_active": "ACTIVE SYNERGY"
     },
     "projects": {
         "title": "Selected Works",
-        "view_project": "View Details",
+        "view_project": "Open Repository",
+        "mode_deck": "3D Tactical Deck",
+        "mode_grid": "Standard Grid",
+        "arena_label": "TACTICAL INSPECTION ARENA // ACTIVE CARD",
+        "deck_hint": "🃏 Hover over any card for 3D Holographic Tilt, or click a card to deploy it into the Inspection Arena!",
+        "deploy_btn": "Deploy to Arena",
+        "deployed_badge": "DEPLOYED IN ARENA",
+        "private_badge": "INTERNAL / NDA ARTIFACT",
         "list": [
             {
                 "title": "Kosakataku - AI Language Learning",
@@ -76,20 +85,13 @@
     },
     "experience": {
         "title": "Career Journey",
+        "mode_expedition": "Alpine Expedition",
+        "mode_timeline": "Classic Timeline",
+        "altitude_label": "CAMP ELEVATION",
+        "summit_vision": "NEXT SUMMIT: Game Dev & 195 Nations",
+        "hint": "🏔️ Click any Camp waypoint on the mountain ridge or select a card below to trace the career ascent!",
         "list": [
             {
-<<<<<<< HEAD
-                "role": "Web Developer",
-                "company": "PT Oktagon Global Utama",
-                "date": "2023 - 2024",
-                "desc": "Mengembangkan aplikasi web sesuai kebutuhan klien berdasarkan tiket pengembangan. Bekerja dalam lingkungan yang berorientasi pada target dan tenggat waktu, sehingga terbiasa menyelesaikan tugas secara tepat waktu dengan tetap menjaga kualitas hasil."
-            },
-            {
-                "role": "IT Staff (Full Stack Developer & IT Support)",
-                "company": "PT Jayamandiri Gemasejati",
-                "date": "Start Year - Present",
-                "desc": "Responsible for maintaining IT infrastructure, optimizing database queries, and developing internal applications such as workshop monitoring systems and PDF document automation."
-=======
                 "role": "Data Analyst",
                 "company": "PT Telkom Indonesia (Persero), Tbk.",
                 "date": "August 2023 - October 2023",
@@ -100,15 +102,10 @@
                 "company": "PT Oktagon Global Utama",
                 "date": "December 2023 - December 2024",
                 "desc": "Developed web applications according to client requirements based on development tickets. Thrived in a target-driven, deadline-oriented environment, consistently delivering high-quality solutions on time."
->>>>>>> 78129090d8670bb214b32019d97b75ecf2941c9a
             },
             {
                 "role": "Freelance Full Stack Developer",
                 "company": "Self-Employed",
-<<<<<<< HEAD
-                "date": "Start Year - Present",
-                "desc": "Handling various custom web development projects, ranging from Docker-based notification system integrations to AI learning applications. Experienced in time management between primary job and side projects."
-=======
                 "date": "March 2025 - Present",
                 "desc": "Handling various custom web development projects, ranging from Docker-based notification system integrations to AI learning applications. Experienced in time management between primary job and side projects."
             },
@@ -123,29 +120,29 @@
                 "company": "BenerinDulu",
                 "date": "May 2026 - Present",
                 "desc": "Founded and managed an independent PC/Laptop installation and repair business. Handled hardware diagnostics, OS optimization, and provided fast, neat, and guaranteed IT solutions to clients."
->>>>>>> 78129090d8670bb214b32019d97b75ecf2941c9a
             }
         ]
     },
     "contact": {
         "title": "Contact Me",
-        "subtitle": "Let's Talk",
-        "desc": "Interested in collaborating, have a job offer, or just want to say hi? Don't hesitate to drop a message!",
-        "name_label": "Full Name",
-        "email_label": "Email",
-        "subject_label": "Subject",
-        "message_label": "Message",
-        "btn_send": "Send Message",
-        "btn_loading": "Sending...",
-        "success_msg": "Thank you! Your message has been sent. I'll get back to you shortly. Have a great day! 😊",
-        "error_msg": "Oops! Something went wrong while sending the message. Please try again later."
+        "subtitle": "Deep-Sea Comms Relay",
+        "desc": "Interested in collaborating on a system, need IT solutions, or just want to say hi? Send an acoustic transmission across the frequencies below!",
+        "mode_ocean": "Deep-Sea Sonar",
+        "mode_classic": "Classic Form",
+        "depth_badge": "DEPTH: -1,094M // ABYSSAL ZONE",
+        "sonar_active": "SONAR TRANSPONDER: ONLINE",
+        "ping_btn": "Emit Sonar Ping",
+        "name_label": "Full Name / Callsign",
+        "email_label": "Email Coordinates",
+        "subject_label": "Transmission Subject",
+        "message_label": "Encrypted Message",
+        "btn_send": "Transmit Sonar Signal",
+        "btn_loading": "Broadcasting Signal...",
+        "success_msg": "Transmission received at -1,094m depth! Thank you, your message has been logged and I'll reply shortly. 😊🌊",
+        "error_msg": "Oops! Signal disrupted by deep-sea currents. Please try transmitting again shortly."
     },
     "footer": {
-<<<<<<< HEAD
-        "text": "Crafted with dedication by"
-=======
         "text": "Crafted with dedication and",
         "by": "by"
->>>>>>> 78129090d8670bb214b32019d97b75ecf2941c9a
     }
 }

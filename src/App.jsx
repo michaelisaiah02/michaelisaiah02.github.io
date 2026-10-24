@@ -24,11 +24,7 @@ function App() {
       {/* Footer Minimalis */}
       <footer className="py-6 bg-slate-100 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 text-center transition-colors">
         <p className="text-slate-600 dark:text-slate-400 text-sm flex items-center justify-center gap-2">
-<<<<<<< HEAD
-          {t('footer.text')} <FaHeart className="text-red-500 animate-pulse" /> by 
-=======
           {t('footer.text')} <FaHeart className="text-red-500 animate-pulse" /> {t('footer.by')}
->>>>>>> 78129090d8670bb214b32019d97b75ecf2941c9a
           <a href="https://github.com/michaelisaiah02" target="_blank" rel="noopener noreferrer" className="font-bold text-slate-800 dark:text-slate-200 hover:text-primary transition-colors">
             Michael Isaiah
           </a>

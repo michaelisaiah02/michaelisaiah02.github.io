@@ -9,28 +9,37 @@
     "hero": {
         "greeting": "Halo, perkenalkan saya",
         "name": "Michael Isaiah",
-<<<<<<< HEAD
-        "role": "Full Stack Web Developer & IT Staff",
-        "description": "Lulusan Teknik Informatika yang bersemangat membangun aplikasi web dari akar hingga terstruktur rapi. Saat ini juga sedang mendalami dunia Game Development.",
-        "cta": "Mari Berdiskusi",
-        "projects": "Lihat Proyek"
-=======
         "role": "Full Stack Web Developer & Game Developer",
         "description": "Lulusan Teknik Informatika yang bersemangat membangun aplikasi web dari akar hingga terstruktur rapi. Saat ini juga sedang mendalami dunia Game Development.",
         "cta": "Mari Berdiskusi",
         "projects": "Lihat Proyek",
-        "download_cv": "Unduh CV"
->>>>>>> 78129090d8670bb214b32019d97b75ecf2941c9a
+        "download_cv": "Unduh CV",
+        "odyssey_badge": "Misi Dunia: Menuju 195 Negara 🌍",
+        "coord_label": "BASECAMP: BANDUNG, ID (6.91° S, 107.61° E)",
+        "toggle_photo": "Lihat Foto",
+        "toggle_globe": "Mode 3D Bumi"
     },
     "about": {
         "title": "Tentang Saya",
-        "story1": "Berawal dari rasa penasaran dengan dunia koding, saya terbiasa membangun dan merestrukturisasi aplikasi dari akar hingga berjalan optimal. Pengalaman saya banyak berpusat pada pengembangan backend dan logika database.",
-        "story2": "Saat ini, saya sedang memperluas batasan saya dengan menyelami dunia Game Development. Bagi saya, memecahkan masalah teknis bukan sekadar pekerjaan, melainkan dedikasi untuk terus berkembang dan memberikan dampak positif.",
-        "skills_title": "Teknologi & Tools"
+        "story1": "Berawal dari rasa penasaran dengan dunia koding dan perangkat keras, saya terbiasa membangun serta merestrukturisasi sistem dari akar terdalam hingga berjalan optimal.",
+        "story2": "Di luar dunia kode, saya adalah pencinta alam—mulai dari mendaki puncak gunung hingga mengagumi kedalaman laut. Visi besar saya adalah mencapai kemerdekaan finansial melalui karya teknologi dan menjelajahi seluruh 195 negara di dunia.",
+        "skills_title": "Ekosistem & Arsitektur Teknologi",
+        "mode_blueprint": "Node Blueprint",
+        "mode_grid": "Tampilan Grid",
+        "hint": "💡 Geser (drag) node untuk mengatur ulang jaringan, atau klik 2 node untuk menguji Sinergi Sistem!",
+        "synergy_default": "Klik 2 node teknologi di atas untuk melihat kombinasi arsitektur yang dihasilkan.",
+        "synergy_active": "SINERGI AKTIF"
     },
     "projects": {
         "title": "Proyek Terpilih",
-        "view_project": "Lihat Detail",
+        "view_project": "Buka Repository",
+        "mode_deck": "3D Tactical Deck",
+        "mode_grid": "Tampilan Standar",
+        "arena_label": "ARENA INSPEKSI TAKTIS // KARTU AKTIF",
+        "deck_hint": "🃏 Arahkan kursor ke kartu untuk efek 3D Hologram, atau klik kartu untuk men-deploy ke Arena Inspeksi!",
+        "deploy_btn": "Deploy ke Arena",
+        "deployed_badge": "AKTIF DI ARENA",
+        "private_badge": "PROYEK INTERNAL / NDA",
         "list": [
             {
                 "title": "Kosakataku - AI Language Learning",
@@ -56,7 +65,7 @@
                 "title": "Automated Document Validation",
                 "desc": "Membangun skrip backend untuk menempelkan stempel validasi dan kode QR secara otomatis ke dalam dokumen PDF klien untuk keperluan administrasi regional.",
                 "tech": [
-                    "Laravel",
+                    "PHP",
                     "Ghostscript",
                     "FPDI"
                 ],
@@ -76,20 +85,13 @@
     },
     "experience": {
         "title": "Perjalanan Karir",
+        "mode_expedition": "Ekspedisi Gunung",
+        "mode_timeline": "Timeline Klasik",
+        "altitude_label": "ELEVASI POS",
+        "summit_vision": "NEXT SUMMIT: Game Dev & 195 Negara",
+        "hint": "🏔️ Klik titik Pos Pendakian (Camp) di peta gunung atau pilih kartu di bawah untuk melacak rute ekspedisi karir!",
         "list": [
             {
-<<<<<<< HEAD
-                "role": "Web Developer",
-                "company": "PT Oktagon Global Utama",
-                "date": "2023 - 2024",
-                "desc": "Mengembangkan aplikasi web sesuai kebutuhan klien berdasarkan tiket pengembangan. Bekerja dalam lingkungan yang berorientasi pada target dan tenggat waktu, sehingga terbiasa menyelesaikan tugas secara tepat waktu dengan tetap menjaga kualitas hasil."
-            },
-            {
-                "role": "IT Staff (Full Stack Developer & IT Support)",
-                "company": "PT Jayamandiri Gemasejati",
-                "date": "2025 - Sekarang",
-                "desc": "Bertanggung jawab dalam merawat infrastruktur IT, mengoptimalkan query database, dan mengembangkan aplikasi internal seperti sistem monitoring bengkel dan otomatisasi dokumen PDF."
-=======
                 "role": "Data Analyst",
                 "company": "PT Telkom Indonesia (Persero), Tbk.",
                 "date": "Agustus 2023 - Oktober 2023",
@@ -100,15 +102,10 @@
                 "company": "PT Oktagon Global Utama",
                 "date": "Desember 2023 - Desember 2024",
                 "desc": "Mengembangkan aplikasi web sesuai kebutuhan klien berdasarkan tiket pengembangan. Bekerja dalam lingkungan yang berorientasi pada target dan tenggat waktu, sehingga terbiasa menyelesaikan tugas secara tepat waktu dengan tetap menjaga kualitas hasil."
->>>>>>> 78129090d8670bb214b32019d97b75ecf2941c9a
             },
             {
                 "role": "Freelance Full Stack Developer",
                 "company": "Proyek Mandiri",
-<<<<<<< HEAD
-                "date": "2024 - Sekarang",
-                "desc": "Menerima berbagai proyek pengembangan web kustom, mulai dari integrasi sistem notifikasi berbasis Docker hingga aplikasi pembelajaran AI. Terbiasa memanajemen waktu antara pekerjaan utama dan proyek sampingan."
-=======
                 "date": "Maret 2025 - Sekarang",
                 "desc": "Menerima berbagai proyek pengembangan web kustom, mulai dari integrasi sistem notifikasi berbasis Docker hingga aplikasi pembelajaran AI. Terbiasa memanajemen waktu antara pekerjaan utama dan proyek sampingan."
             },
@@ -123,29 +120,29 @@
                 "company": "BenerinDulu",
                 "date": "Mei 2026 - Sekarang",
                 "desc": "Mendirikan dan mengelola usaha mandiri di bidang instalasi dan servis Laptop/PC. Menangani diagnosa kerusakan hardware, optimasi sistem operasi, serta memberikan solusi IT yang cepat, rapi, dan bergaransi kepada klien."
->>>>>>> 78129090d8670bb214b32019d97b75ecf2941c9a
             }
         ]
     },
     "contact": {
         "title": "Hubungi Saya",
-        "subtitle": "Mari Berdiskusi",
-        "desc": "Tertarik untuk berkolaborasi, ada tawaran pekerjaan, atau sekadar ingin menyapa? Jangan ragu untuk mengirim pesan!",
-        "name_label": "Nama Lengkap",
-        "email_label": "Email",
-        "subject_label": "Subjek",
-        "message_label": "Pesan",
-        "btn_send": "Kirim Pesan",
-        "btn_loading": "Mengirim...",
-        "success_msg": "Terima kasih! Pesan Anda sudah terkirim. Saya akan membalasnya segera. Semoga harimu menyenangkan! 😊",
-        "error_msg": "Ups! Terjadi kesalahan saat mengirim pesan. Silakan coba lagi nanti."
+        "subtitle": "Stasiun Transmisi Bawah Laut",
+        "desc": "Tertarik untuk berkolaborasi membangun sistem, butuh solusi IT, atau sekadar ingin menyapa? Kirimkan sinyal transmisi Anda melalui frekuensi di bawah ini!",
+        "mode_ocean": "Sonar Bawah Laut",
+        "mode_classic": "Form Klasik",
+        "depth_badge": "KEDALAMAN: -1.094M // ZONA ABISAL",
+        "sonar_active": "TRANSPONDER SONAR: AKTIF",
+        "ping_btn": "Pancarkan Ping Sonar",
+        "name_label": "Nama Lengkap / Callsign",
+        "email_label": "Koordinat Email",
+        "subject_label": "Subjek Transmisi",
+        "message_label": "Pesan Terenkripsi",
+        "btn_send": "Kirim Transmisi Sonar",
+        "btn_loading": "Memancarkan Sinyal...",
+        "success_msg": "Transmisi diterima di kedalaman -1.094m! Terima kasih, pesan Anda sudah masuk dan akan segera saya balas. 😊🌊",
+        "error_msg": "Ups! Sinyal terganggu arus laut dalam. Silakan coba kirim ulang beberapa saat lagi."
     },
     "footer": {
-<<<<<<< HEAD
-        "text": "Dibuat dengan segenap hati oleh"
-=======
         "text": "Dibuat dengan dedikasi dan",
         "by": "oleh"
->>>>>>> 78129090d8670bb214b32019d97b75ecf2941c9a
     }
 }
